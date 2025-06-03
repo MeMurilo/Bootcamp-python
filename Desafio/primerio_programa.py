@@ -34,7 +34,7 @@ while True:
       valor = float(input("Informe o valor do saque: "))
       
       execedeu_valor = valor > saldo
-      excedeu_limite = valor = 500
+      excedeu_limite = valor >= limite
       excedeu_saque = numero_saques >= LIMITE_SAQUES
       
      
@@ -45,7 +45,7 @@ while True:
       if excedeu_limite:
         print("Valor limite de saque atingindo.")
         
-        if excedeu_saque:
+      if excedeu_saque:
          print("Número de saques maximos atingido")
          
          
