@@ -16,6 +16,7 @@ class Pessoa:
  
 pessoa = Pessoa("Mauro", 2000)
 print(f"Nome:{pessoa.nome} \t Idade:{pessoa.idade}")
+
         
         
         
